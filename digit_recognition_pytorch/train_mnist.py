@@ -1,3 +1,12 @@
+#
+# Author: Rico Krenn
+# Created on: Wed Nov 12 2025 11:07:08 AM
+# Description: this file trains the ai
+# This prject is made witch ChatGPT
+# File: train_mnist.py
+# Workspace: 102_python_projekt
+#
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
