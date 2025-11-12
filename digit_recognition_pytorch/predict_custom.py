@@ -1,3 +1,12 @@
+#
+# Author: Rico Krenn
+# Created on: Wed Nov 12 2025 11:32:28 AM
+# Description: this file predicts the number of images
+# This prject is made witch ChatGPT
+# File: predict_custom.py
+# Workspace: 102_python_projekt
+#
+
 import torch
 import torch.nn as nn
 from PIL import Image
@@ -46,4 +55,4 @@ def predict_custom_image(image_path):
     return predicted.item()
 
 # Example usage
-predict_custom_image('../images_to_test/my_digit_0.png')
+predict_custom_image('../images_to_test/my_digit_9.png')
